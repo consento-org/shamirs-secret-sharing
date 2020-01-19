@@ -17,7 +17,10 @@
   ],
   "author": "Joseph Werle <joseph.werle@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@consento/sync-randombytes": "^1.0.3",
+    "buffer": "^5.4.3"
+  },
   "devDependencies": {
     "ava": "^2.4.0",
     "nyc": "^15.0.0"

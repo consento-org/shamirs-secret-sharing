@@ -1,4 +1,5 @@
 const { BIT_COUNT, BIT_SIZE } = require('./constants')
+const { Buffer } = require('buffer')
 
 function parse(input) {
   const share = { id: null, bits: null, data: null }

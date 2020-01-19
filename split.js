@@ -3,6 +3,7 @@ const { horner } = require('./horner')
 const { points } = require('./points')
 const { random } = require('./random')
 const codec = require('./codec')
+const { Buffer } = require('buffer')
 
 const {
   BIN_ENCODING,

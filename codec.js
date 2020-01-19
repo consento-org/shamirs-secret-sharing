@@ -1,4 +1,5 @@
 const { zeroes } = require('./table')
+const { Buffer } = require('buffer')
 
 const {
   BYTES_PER_CHARACTER,

@@ -1,6 +1,7 @@
 const { split, combine } = require('../')
 const codec = require('../codec')
 const test = require('ava')
+const { Buffer } = require('buffer')
 
 const { MAX_SHARES } = require('../constants')
 

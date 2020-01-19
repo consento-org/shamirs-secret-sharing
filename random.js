@@ -1,7 +1,9 @@
-const { randomBytes } = require('crypto')
+const randomBytes = require('@consento/sync-randombytes')
+const { Buffer } = require('buffer')
 
 function random(size) {
-  const r = randomBytes(32 + size)
+  const r = Buffer.alloc(32 + size)
+  randomBytes(r)
   return r.slice(32)
 }
 

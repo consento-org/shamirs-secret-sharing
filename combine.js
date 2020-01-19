@@ -2,6 +2,7 @@ const { BIN_ENCODING } = require('./constants')
 const { lagrange } = require('./lagrange')
 const { parse } = require('./share')
 const codec = require('./codec')
+const { Buffer } = require('buffer')
 
 /**
  * Reconstruct a secret from a distinct set of shares.
